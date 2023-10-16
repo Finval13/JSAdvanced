@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c9c9c9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.example__items {
+  width: 90%;
+  margin: 10px auto;
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+.example__item {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  outline: 2px solid;
+  outline-offset: -10px;
+  flex-grow: 1;
+}
+
+.example__item:hover {
+  box-shadow: 0 0 5px #333;
+}
+
+.example_item--active {
+  background-color: #face00;
+  color: #fff;
+  outline-color: #fff;
+}
+
